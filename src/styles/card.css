@@ -1,0 +1,45 @@
+.skills_container {
+    margin: auto;
+    background: rgba(36, 187, 140, 0.02);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item_grid {
+    display: flex;
+    gap: 20px;
+}
+
+.item_grid .img {
+    background: #FFFFFF33;
+    border-radius: 20px;
+    padding: 15px;
+    width: 220px;
+    height: 90px;
+}
+
+.item_grid .img img {
+    width: 100%;
+}
+
+.item_grid .content h6 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color:  #20B486;
+    
+}
+
+.item_grid .content p {
+font-family: Inter;
+font-size: 25px;
+font-weight: 300;
+line-height: 34px;
+text-align: left;
+color:#101828;
+
+}

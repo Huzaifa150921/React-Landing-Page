@@ -1,0 +1,179 @@
+.outer_track {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.track_div1 .top_content h2 {
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align:left;
+color:  #101828;
+
+}
+
+.track_div1 .top_content p {
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align:left;
+color:  #20B486;
+}
+
+.track_div1 .top_content .detail p {
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #667085;
+}
+
+
+.track_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px 0px;
+}
+
+.cards {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    
+}
+
+.cards .img {
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.cards .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cards .rating {
+    justify-content: space-between;
+    margin: 1rem 0px;
+}
+
+.cards .rating small {
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+color:#1A906B;
+}
+.cards .rating h2 {
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color:#101828;
+}
+.cards .rating p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #667085;
+ }
+ .cards .rating .stars {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+margin:10px 5px;
+}
+
+.cards .rating .stars p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: #3FC89E;    
+}
+
+.cards .rating .stars span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color:#969696;
+}
+
+.cards .rating .full_icon {
+    color: #FFA135;
+}
+
+
+.cards .main_heading{
+display: flex;
+flex-direction: row;
+gap:20px
+}
+
+.cards .main_heading .Avatar_title span {
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #101828;
+
+}
+
+.cards .main_heading .Avatar_title p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color:#667085;
+}
+
+.cards .main_heading h3 {
+font-family: Inter;
+font-size: 26px;
+font-weight: 700;
+line-height: 31.47px;
+text-align: right;
+color:#3FC89E;
+padding-left: 90px;
+}
+
+
+.cards .icons {
+align-items: end;
+margin: 5px 0px 0px 250px ;
+position:absolute;
+}
+
+.cards .icons span {
+    font-family: Jost;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color:#667085;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

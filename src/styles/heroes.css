@@ -1,0 +1,83 @@
+.heroes_track {
+    position: relative;
+    padding: 70px 0px;
+}
+
+.heroes_div .top_content h2 {
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: center;
+color:  #101828;
+
+}
+
+.heroes_div .top_content p {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #667085;
+}
+
+.heroes_div .top_content h6{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color:  #20B486; 
+}
+
+
+.heroes_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 20px 50px;
+}
+
+.heroes_cards .first_h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    }
+
+.heroes_cards .first_h h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+    
+}
+.heroes_cards .first_h span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #22B286;
+    
+}
+.heroes_cards .first_h p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+}
+.heroes_cards .first_h .icon{
+        color: #98A2B3;
+        margin: 5px 5px;
+}

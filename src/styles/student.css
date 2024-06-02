@@ -1,0 +1,64 @@
+.student_track {
+position: relative;
+padding: 70px 0px;
+background: #F0FAF7;
+}
+.student_div{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 96px 0px;
+gap: 64px;
+height: 500px;
+}
+.student_div .top_content .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student_div .top_content h2 {
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: center;
+color:  #101828;
+
+}
+.student_div .top_content h6{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color:  #20B486; 
+}
+.student_cards .first_h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.student_cards .first_h h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+    
+}
+.student_cards .first_h p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+}
+
